@@ -1,0 +1,29 @@
+# Core AI
+anthropic>=0.40.0
+
+# LangChain (split into modern packages)
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# Vector Database
+chromadb>=0.5.0
+
+# Embeddings (free local model)
+sentence-transformers>=3.0.0
+
+# Document Loaders
+pypdf>=4.0.0
+
+# API Server
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Utilities
+pydantic>=2.0.0
+
+
+google-generativeai

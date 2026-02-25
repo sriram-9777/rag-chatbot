@@ -1,0 +1,199 @@
+=== GENERATIVE AI ===
+
+Generative AI refers to artificial intelligence systems that can generate new content such as text, images, audio, and video based on patterns learned from training data.
+Large Language Models (LLMs) are the foundation of generative AI. Examples include GPT-4, Claude, and Gemini.
+Generative AI works by predicting the next token or word based on the input context it receives.
+Popular generative AI applications include chatbots, code assistants, image generators, and content creation tools.
+Prompt engineering is the practice of designing effective inputs to get better outputs from generative AI models.
+Fine-tuning is the process of training a pre-trained model on a specific dataset to make it perform better on a specific task.
+Hallucination in AI refers to when a model generates confident but incorrect or fabricated information.
+Tokens are the basic units of text that LLMs process. One token is approximately 4 characters or 0.75 words.
+Temperature in AI controls randomness of output. Low temperature gives focused answers, high temperature gives creative answers.
+Zero-shot prompting means asking the model to perform a task without any examples.
+Few-shot prompting means providing a few examples in the prompt to guide the model's response.
+Chain of thought prompting encourages the model to think step by step before giving a final answer.
+AI agents are systems that use LLMs to autonomously plan and execute multi-step tasks.
+Multimodal AI models can process and generate multiple types of content such as text, images, and audio together.
+Claude is an AI assistant created by Anthropic, designed to be helpful, harmless, and honest.
+GPT stands for Generative Pre-trained Transformer, developed by OpenAI.
+Gemini is Google's family of multimodal AI models.
+Transformer architecture is the neural network design that powers most modern LLMs.
+Embeddings are numerical vector representations of text that capture semantic meaning.
+Semantic search uses embeddings to find content based on meaning rather than exact keyword matching.
+
+=== RAG (RETRIEVAL AUGMENTED GENERATION) ===
+
+RAG stands for Retrieval Augmented Generation. It is a technique that combines information retrieval with text generation.
+RAG allows AI models to answer questions using your own custom documents and knowledge base.
+The RAG pipeline has two main phases: the indexing phase and the retrieval phase.
+In the indexing phase, documents are loaded, split into chunks, converted to embeddings, and stored in a vector database.
+In the retrieval phase, the user query is embedded, similar chunks are retrieved, and the LLM generates an answer using those chunks.
+Chunking is the process of splitting large documents into smaller pieces for better retrieval accuracy.
+Chunk size typically ranges from 200 to 1000 characters depending on the use case.
+Chunk overlap ensures that context is not lost at the boundaries of chunks.
+Vector databases store embeddings and enable fast similarity search. Examples include ChromaDB, Pinecone, Weaviate, and Qdrant.
+ChromaDB is an open source vector database that runs locally and is great for development.
+Pinecone is a managed cloud vector database popular for production RAG applications.
+Cosine similarity is a common metric used to measure how similar two embeddings are.
+Top-K retrieval means fetching the K most relevant chunks for a given query.
+RAG reduces hallucinations by grounding the model's answers in real retrieved documents.
+LangChain is a popular framework for building RAG pipelines and AI applications.
+LlamaIndex is another framework specialized for building RAG and document question answering systems.
+Hybrid search combines keyword search and semantic search for better retrieval results.
+Re-ranking is the process of reordering retrieved chunks by relevance before passing them to the LLM.
+Sentence transformers are models used to convert text into embeddings for semantic search.
+The all-MiniLM-L6-v2 model is a lightweight and fast sentence transformer model popular for local embeddings.
+
+=== DATA SCIENCE ===
+
+Data science is an interdisciplinary field that uses statistics, programming, and domain knowledge to extract insights from data.
+The data science lifecycle includes data collection, data cleaning, exploratory analysis, modeling, evaluation, and deployment.
+Python is the most popular programming language for data science due to its rich ecosystem of libraries.
+NumPy is a Python library for numerical computing and array operations.
+Pandas is a Python library for data manipulation and analysis using DataFrames.
+Matplotlib and Seaborn are Python libraries used for data visualization.
+Scikit-learn is a Python library that provides machine learning algorithms for classification, regression, and clustering.
+Machine learning is a subset of AI where models learn patterns from data without being explicitly programmed.
+Supervised learning uses labeled data to train models. Examples include regression and classification.
+Unsupervised learning finds patterns in unlabeled data. Examples include clustering and dimensionality reduction.
+Reinforcement learning trains agents to make decisions by rewarding good actions and penalizing bad ones.
+Deep learning uses neural networks with many layers to learn complex patterns from large datasets.
+TensorFlow and PyTorch are the two most popular deep learning frameworks.
+Feature engineering is the process of creating new input variables from raw data to improve model performance.
+Overfitting occurs when a model learns the training data too well and performs poorly on new data.
+Underfitting occurs when a model is too simple to capture the patterns in the data.
+Cross validation is a technique to evaluate model performance by training and testing on different subsets of data.
+Confusion matrix is a table used to evaluate classification model performance showing true positives, false positives, true negatives, and false negatives.
+Accuracy, precision, recall, and F1 score are common metrics for evaluating classification models.
+Mean squared error and R-squared are common metrics for evaluating regression models.
+Principal Component Analysis (PCA) is a dimensionality reduction technique that finds the most important features in data.
+Natural Language Processing (NLP) is the branch of AI focused on understanding and generating human language.
+Computer vision is the branch of AI focused on understanding and analyzing images and videos.
+Jupyter Notebook is a popular interactive environment for data science and machine learning experiments.
+Data cleaning involves handling missing values, removing duplicates, and fixing inconsistent data.
+Exploratory Data Analysis (EDA) is the process of visualizing and summarizing data to understand its structure.
+
+=== SOFTWARE TESTING ===
+
+Software testing is the process of evaluating a software application to find bugs and ensure it meets requirements.
+Unit testing tests individual functions or components in isolation to verify they work correctly.
+Integration testing verifies that different modules or components work correctly together.
+System testing tests the complete application as a whole against requirements.
+Acceptance testing verifies that the software meets business requirements and is ready for release.
+Regression testing ensures that new code changes do not break existing functionality.
+Performance testing evaluates how the system behaves under load and stress conditions.
+Load testing tests system behavior under expected normal load conditions.
+Stress testing tests system behavior under extreme load conditions beyond normal capacity.
+Security testing identifies vulnerabilities and weaknesses in the application's security.
+Manual testing involves human testers executing test cases without automation tools.
+Automated testing uses scripts and tools to execute tests automatically.
+Test Driven Development (TDD) is a practice where tests are written before the actual code.
+Behavior Driven Development (BDD) writes tests in plain language that describes the expected behavior.
+Selenium is a popular tool for automating web browser testing.
+Pytest is the most popular Python testing framework.
+JUnit is the most popular Java testing framework.
+Postman is a popular tool for testing REST APIs.
+A test case is a set of conditions and steps used to verify a specific functionality.
+A bug or defect is an error in the software that causes unexpected behavior.
+Test coverage measures how much of the code is executed during testing.
+Smoke testing is a quick test to check that the basic functions of the application work.
+Sanity testing is a quick test to verify a specific functionality after a bug fix.
+Mocking is the practice of replacing real dependencies with fake ones during testing.
+CI/CD pipelines automatically run tests whenever new code is pushed to the repository.
+
+=== DEVOPS ===
+
+DevOps is a set of practices that combines software development and IT operations to shorten the development lifecycle.
+DevOps culture emphasizes collaboration, automation, continuous improvement, and fast delivery.
+CI stands for Continuous Integration, the practice of frequently merging code changes and running automated tests.
+CD stands for Continuous Delivery or Continuous Deployment, automating the release of software to production.
+Docker is a platform for building, shipping, and running applications in containers.
+A container is a lightweight, isolated environment that packages an application with all its dependencies.
+Kubernetes is an open source platform for automating deployment, scaling, and management of containers.
+A Docker image is a read-only template used to create containers.
+A Dockerfile is a text file with instructions for building a Docker image.
+Docker Compose is a tool for defining and running multi-container Docker applications.
+Git is a distributed version control system used to track changes in source code.
+GitHub, GitLab, and Bitbucket are popular platforms for hosting Git repositories.
+A Git branch is an independent line of development used to work on features without affecting the main codebase.
+A pull request is a request to merge code changes from one branch into another.
+Jenkins is a popular open source CI/CD automation server.
+GitHub Actions is a CI/CD platform built directly into GitHub.
+Infrastructure as Code (IaC) is the practice of managing infrastructure using code and configuration files.
+Terraform is a popular IaC tool for provisioning cloud infrastructure.
+Ansible is a tool for automating configuration management and application deployment.
+Monitoring is the practice of observing system performance and health in production.
+Prometheus is a popular open source monitoring and alerting toolkit.
+Grafana is a popular tool for visualizing metrics and creating dashboards.
+AWS, Azure, and Google Cloud are the three major cloud computing platforms.
+Microservices architecture breaks an application into small, independent services that communicate via APIs.
+A REST API is an interface that allows different services to communicate over HTTP.
+Load balancing distributes incoming traffic across multiple servers to ensure reliability and performance.
+Blue-green deployment is a strategy where two identical production environments are used to reduce downtime during releases.
+Rolling deployment gradually updates instances of the application to minimize downtime.
+
+=== PYTHON ===
+
+Python is a high-level, interpreted programming language created by Guido van Rossum and first released in 1991.
+Python is known for its clean, readable syntax that uses indentation to define code blocks.
+Python supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+Python is the most popular language for data science, machine learning, and AI development.
+Python uses dynamic typing, meaning variable types are determined at runtime.
+Variables in Python do not need to be declared with a type. Example: name = "Alice"
+Python lists are ordered, mutable collections. Example: fruits = ["apple", "banana", "cherry"]
+Python tuples are ordered, immutable collections. Example: coordinates = (10, 20)
+Python dictionaries store key-value pairs. Example: person = {"name": "Alice", "age": 30}
+Python sets store unique, unordered elements. Example: unique_numbers = {1, 2, 3}
+Python functions are defined using the def keyword. Example: def greet(name): return "Hello " + name
+Python classes are defined using the class keyword for object-oriented programming.
+List comprehensions provide a concise way to create lists. Example: squares = [x**2 for x in range(10)]
+Lambda functions are small anonymous functions. Example: add = lambda x, y: x + y
+Python decorators modify the behavior of functions or classes.
+Python generators use the yield keyword to produce values lazily one at a time.
+Exception handling in Python uses try, except, finally blocks.
+Python modules are files containing Python code that can be imported.
+Pip is the package installer for Python used to install third-party libraries.
+Virtual environments isolate Python dependencies for different projects.
+Popular Python web frameworks include Django, Flask, and FastAPI.
+FastAPI is a modern, fast web framework for building APIs with Python.
+Django is a full-featured web framework that follows the Model-View-Template pattern.
+Flask is a lightweight and flexible Python web framework.
+Python's GIL (Global Interpreter Lock) allows only one thread to execute Python code at a time.
+Async/await in Python enables asynchronous programming for handling concurrent operations.
+Python f-strings provide a convenient way to format strings. Example: f"Hello {name}"
+Python's standard library includes modules for file handling, networking, math, and more.
+PEP 8 is the official Python style guide for writing clean and readable code.
+Python is used in web scraping, automation, scientific computing, and backend development.
+
+=== JAVA ===
+
+Java is a high-level, object-oriented programming language developed by Sun Microsystems and released in 1995.
+Java follows the principle of Write Once Run Anywhere (WORA) through the Java Virtual Machine (JVM).
+The JVM (Java Virtual Machine) executes Java bytecode and makes Java platform independent.
+Java is statically typed, meaning variable types must be declared explicitly.
+Java is one of the most popular languages for enterprise application development.
+The four pillars of Object Oriented Programming in Java are Encapsulation, Inheritance, Polymorphism, and Abstraction.
+A Java class is a blueprint for creating objects. Example: public class Car { }
+A Java object is an instance of a class created using the new keyword.
+Java interfaces define a contract that classes must implement.
+Abstract classes in Java cannot be instantiated and may contain abstract methods.
+Java supports single inheritance for classes but multiple inheritance through interfaces.
+The main method in Java is the entry point of any Java application: public static void main(String[] args)
+Java data types include int, double, boolean, char, String, and more.
+Java arrays are fixed-size collections of elements of the same type.
+Java ArrayList is a dynamic array that can grow and shrink in size.
+Java HashMap stores key-value pairs and allows fast lookup by key.
+Java exceptions are handled using try, catch, finally blocks.
+Checked exceptions must be declared or handled. Unchecked exceptions extend RuntimeException.
+Java packages organize classes into namespaces to avoid naming conflicts.
+Java access modifiers include public, private, protected, and default.
+Java generics allow classes and methods to work with different data types safely.
+Java streams provide a functional approach to processing collections of data.
+Lambda expressions in Java enable functional programming. Example: list.forEach(item -> System.out.println(item))
+Java threads enable concurrent programming and parallel execution.
+Spring Boot is the most popular Java framework for building web applications and REST APIs.
+Maven and Gradle are popular build tools for Java projects.
+JUnit is the standard testing framework for Java unit tests.
+Java garbage collection automatically manages memory by freeing unused objects.
+Java 8 introduced major features including lambda expressions, streams, and the Optional class.
+Java is widely used in Android development, enterprise software, and backend systems.
